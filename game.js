@@ -21,5 +21,6 @@ function update() {
 }
 
 function draw() {
+  gameBoard.InnerHTML = ''
   drawSnake(gameBoard)
 }
